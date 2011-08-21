@@ -151,6 +151,7 @@
 		29B97314FDCFA39411CA2CEA /* fit-checker */ = {
 			isa = PBXGroup;
 			children = (
+				B47DFFB41401C48700CA7F6E /* Nibs */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -233,6 +234,13 @@
 				B458425112CC3D1700979942 /* EGORefreshTableHeaderView.m */,
 			);
 			path = RefreshTableHeaderView;
+			sourceTree = "<group>";
+		};
+		B47DFFB41401C48700CA7F6E /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Nibs;
 			sourceTree = "<group>";
 		};
 		B4F6F31612CCF8F300BAC4E3 /* DetailCell */ = {
