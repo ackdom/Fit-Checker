@@ -1,1290 +1,0 @@
-Tfit-checker
-v7
-r0
-t315867840.231205
-cCheck dependencies
-cCpResource build/Release-iphoneos/fit-checker.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Info.plist fit_checker-Info.plist
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/MainWindow.xib
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/SecondView.xib
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/FirstView.xib
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/16-line-chart.png 16-line-chart.png
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/20-gear2.png ../../../Downloads/glyphish-icons/icons/20-gear2.png
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.xib
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.xib
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/blueArrow.png blueArrow.png
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/blueArrow@2x.png blueArrow@2x.png
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.xib
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.xib
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/DetailCell.xib
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/DarkBackground.png DarkBackground.png
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/LightBackground.png LightBackground.png
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/140-gradhat.png Classes/140-gradhat.png
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/Spinner.xib
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/sp-bg.png sp-bg.png
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/13-target.png 13-target.png
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/about.xib
-cCompileXIB /Users/dominik/prace/iphone/fit-checker/AboutTab.xib
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/ItunesArtwork.png ItunesArtwork.png
-cCpResource build/Release-iphoneos/fit-checker.app/cvut-logo-inverzni-364x275.jpg cvut-logo-inverzni-364x275.jpg
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small@2x.png Icon-Small@2x.png
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-72.png Icon-72.png
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small.png Icon-Small.png
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon.png Icon.png
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small-50.png Icon-Small-50.png
-cCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon@2x.png Icon@2x.png
-cProcessPCH /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch.gch fit_checker_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch.gch fit_checker_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/main.o /Users/dominik/prace/iphone/fit-checker/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit_checkerAppDelegate.o /Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/FirstViewController.o /Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/SettingsController.o /Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/AddCourse.o /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/LoginController.o /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/EGORefreshTableHeaderView.o /Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/MainViewController.o /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/DetailController.o /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/DetailCell.o /Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/main.o /Users/dominik/prace/iphone/fit-checker/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit_checkerAppDelegate.o /Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/FirstViewController.o /Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/SettingsController.o /Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit-checker normal armv6
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/AddCourse.o /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/LoginController.o /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/EGORefreshTableHeaderView.o /Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/MainViewController.o /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/DetailController.o /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/DetailCell.o /Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit-checker normal armv7
-cCreateUniversalBinary /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/fit-checker normal "armv6 armv7"
-cGenerateDSYMFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app.dSYM /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/fit-checker
-cProcessProductPackaging "/Users/dominik/Library/MobileDevice/Provisioning Profiles/03F23C86-2F60-471B-8E92-4209B8A5FC78.mobileprovision" /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/embedded.mobileprovision
-cTouch /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker.xcent
-cCodeSign /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app
-cValidate /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
-c000000004C6DE9E30000000000000110
-t1282271715
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-c000000004C578FA900000000000001A7
-t1280806825
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-c000000004C578FA900000000000001E5
-t1280806825
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A51050000000000345F00
-t1280987397
-s3432192
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A52B100000000003E1EF0
-t1280987825
-s4071152
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A527F0000000000001466
-t1280987775
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C5A556300000000000000C4
-t1280988515
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C5A56D600000000002573D0
-t1280988886
-s2454480
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C62427000000000000009CD
-t1281507952
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C62430F0000000002EBC2B0
-t1281508111
-s49005232
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/Availability.h
-c000000004C57A57A0000000000001A5C
-t1280812410
-s6748
-
-N/Users/dominik/Library/MobileDevice/Provisioning Profiles/03F23C86-2F60-471B-8E92-4209B8A5FC78.mobileprovision
-c000000004D237FCB0000000000001C10
-t1294172107
-s7184
-
-N/Users/dominik/prace/iphone/fit-checker/../../../Downloads/glyphish-icons/icons/20-gear2.png
-c000000004CB844580000000000000C79
-t1287144536
-s3193
-
-N/Users/dominik/prace/iphone/fit-checker/13-target.png
-c000000004CB844560000000000000DC1
-t1287144534
-s3521
-
-N/Users/dominik/prace/iphone/fit-checker/16-line-chart.png
-c000000004CB844580000000000000C90
-t1287144536
-s3216
-
-N/Users/dominik/prace/iphone/fit-checker/AboutTab.xib
-c000000004D20D8700000000000005531
-t1293998192
-s21809
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m
-c000000004D211E1600000000000015BB
-t1294016022
-s5563
-i"SettingsController.h"
-i"FirstViewController.h"
-i"AddCourse.h"
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.h
-c000000004D1CF3000000000000000216
-t1293742848
-s534
-i<UIKit/UIKit.h>
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m
-c000000004D1CF30E000000000000057E
-t1293742862
-s1406
-i"DetailCell.h"
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m
-c000000004CFCA3CA000000000000202F
-t1291625418
-s8239
-i"EGORefreshTableHeaderView.h"
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/140-gradhat.png
-c000000004CBB8ACE0000000000000217
-t1287359182
-s535
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.h
-c000000004D1C02F00000000000000264
-t1293681392
-s612
-i<UIKit/UIKit.h>
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m
-c000000004D1C03060000000000000919
-t1293681414
-s2329
-i"AddCourse.h"
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.xib
-c000000004D238B18000000000000734F
-t1294175000
-s29519
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/DetailController.h
-c000000004D20AF5700000000000003A5
-t1293987671
-s933
-i<UIKit/UIKit.h>
-i"DetailCell.h"
-i"MainViewController.h"
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m
-c000000004D20CC770000000000001F91
-t1293995127
-s8081
-i"DetailController.h"
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/DetailController.xib
-c000000004D20BB3F00000000000057EE
-t1293990719
-s22510
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.h
-c000000004D1BBF4A00000000000000E4
-t1293664074
-s228
-i<UIKit/UIKit.h>
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m
-c000000004D1BC50600000000000005DE
-t1293665542
-s1502
-i"FirstViewController.h"
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/LoginController.h
-c000000004D1BFC1900000000000001ED
-t1293679641
-s493
-i<UIKit/UIKit.h>
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m
-c000000004D211E3C0000000000000BA7
-t1294016060
-s2983
-i"LoginController.h"
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/LoginController.xib
-c000000004D20D9F10000000000007124
-t1293998577
-s28964
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.h
-c000000004D20ACBD00000000000002EC
-t1293987005
-s748
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m
-c000000004D211F920000000000001CFE
-t1294016402
-s7422
-i"MainViewController.h"
-i"DetailController.h"
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.xib
-c000000004D1C15A90000000000003850
-t1293686185
-s14416
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.h
-c000000004D1BBF4A00000000000001DB
-t1293664074
-s475
-i<UIKit/UIKit.h>
-
-N/Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m
-c000000004D2117780000000000000C7C
-t1294014328
-s3196
-i"fit_checkerAppDelegate.h"
-
-N/Users/dominik/prace/iphone/fit-checker/DarkBackground.png
-c000000004C1FDFCA000000000000004E
-t1277157322
-s78
-
-N/Users/dominik/prace/iphone/fit-checker/DetailCell.xib
-c000000004D1D34AD0000000000006210
-t1293759661
-s25104
-
-N/Users/dominik/prace/iphone/fit-checker/FirstView.xib
-c000000004D1BCD7B0000000000004A55
-t1293667707
-s19029
-
-N/Users/dominik/prace/iphone/fit-checker/Icon-72.png
-c000000004D2385110000000000001A59
-t1294173457
-s6745
-
-N/Users/dominik/prace/iphone/fit-checker/Icon-Small-50.png
-c000000004D23851E000000000002CABE
-t1294173470
-s182974
-
-N/Users/dominik/prace/iphone/fit-checker/Icon-Small.png
-c000000004D2384B60000000000000655
-t1294173366
-s1621
-
-N/Users/dominik/prace/iphone/fit-checker/Icon-Small@2x.png
-c000000004D2384FD000000000000123C
-t1294173437
-s4668
-
-N/Users/dominik/prace/iphone/fit-checker/Icon.png
-c000000004D2384CF00000000000011B6
-t1294173391
-s4534
-
-N/Users/dominik/prace/iphone/fit-checker/Icon@2x.png
-c000000004D2384E3000000000000396D
-t1294173411
-s14701
-
-N/Users/dominik/prace/iphone/fit-checker/ItunesArtwork.png
-c000000004D23848D000000000002CABE
-t1294173325
-s182974
-
-N/Users/dominik/prace/iphone/fit-checker/LightBackground.png
-c000000004C1FDFCA000000000000004E
-t1277157322
-s78
-
-N/Users/dominik/prace/iphone/fit-checker/MainWindow.xib
-c000000004D20D8C1000000000000C846
-t1293998273
-s51270
-
-N/Users/dominik/prace/iphone/fit-checker/SecondView.xib
-c000000004D1CF007000000000005BC67
-t1293742087
-s375911
-
-N/Users/dominik/prace/iphone/fit-checker/SettingsController.h
-c000000004D1BFF4500000000000001EE
-t1293680453
-s494
-i<UIKit/UIKit.h>
-i"AddCourse.h"
-
-N/Users/dominik/prace/iphone/fit-checker/Spinner.xib
-c000000004D209433000000000000563F
-t1293980723
-s22079
-
-N/Users/dominik/prace/iphone/fit-checker/View/DetailCell.h
-c000000004D1CF3000000000000000216
-t1293742848
-s534
-i<UIKit/UIKit.h>
-
-N/Users/dominik/prace/iphone/fit-checker/View/RefreshTableHeaderView/EGORefreshTableHeaderView.h
-c000000004CFCA3CA000000000000090B
-t1291625418
-s2315
-i<UIKit/UIKit.h>
-i<QuartzCore/QuartzCore.h>
-
-N/Users/dominik/prace/iphone/fit-checker/about.xib
-c000000004D20D48900000000000056B1
-t1293997193
-s22193
-
-N/Users/dominik/prace/iphone/fit-checker/blueArrow.png
-c000000004CFCA3CA000000000000118C
-t1291625418
-s4492
-
-N/Users/dominik/prace/iphone/fit-checker/blueArrow@2x.png
-c000000004CFCA3CA00000000000005F9
-t1291625418
-s1529
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app
-t1294175039
-s1258
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app.dSYM
-t1294175038
-s102
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/13-target.png
-t1294175022
-s3958
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/140-gradhat.png
-t1294175021
-s842
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/16-line-chart.png
-t1294175019
-s3560
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/20-gear2.png
-t1294175019
-s3240
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/AboutTab.nib
-t1294175024
-s3198
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/AddCourse.nib
-t1294175020
-s4655
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/DarkBackground.png
-t1294175021
-s91
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/DetailCell.nib
-t1294175022
-s3630
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/DetailController.nib
-t1294175021
-s1818
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/FirstView.nib
-t1294175019
-s2879
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-72.png
-t1294175024
-s6981
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small-50.png
-t1294175025
-s174005
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small.png
-t1294175024
-s1630
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small@2x.png
-t1294175024
-s4809
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon.png
-t1294175024
-s4688
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon@2x.png
-t1294175024
-s14964
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Info.plist
-t1294175016
-s770
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/ItunesArtwork.png
-t1294175024
-s174005
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/LightBackground.png
-t1294175021
-s91
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/LoginController.nib
-t1294175020
-s4657
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/MainViewController.nib
-t1294175021
-s614
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/MainWindow.nib
-t1294175018
-s6041
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/PkgInfo
-t1294175016
-s8
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/ResourceRules.plist
-t1294175016
-s485
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/SecondView.nib
-t1294175018
-s1873
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Spinner.nib
-t1294175023
-s2616
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/about.nib
-t1294175023
-s3368
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/blueArrow.png
-t1294175020
-s4190
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/blueArrow@2x.png
-t1294175020
-s2096
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/cvut-logo-inverzni-364x275.jpg
-t1294175024
-s28275
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/embedded.mobileprovision
-t1294175038
-s7184
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/fit-checker
-t1294175038
-s147360
-
-N/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/sp-bg.png
-t1294175022
-s540
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/AddCourse.o
-t1294175035
-s45068
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/DetailCell.o
-t1294175036
-s41992
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/DetailController.o
-t1294175037
-s79248
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/EGORefreshTableHeaderView.o
-t1294175035
-s53324
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/FirstViewController.o
-t1294175034
-s34804
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/LoginController.o
-t1294175035
-s45912
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/MainViewController.o
-t1294175035
-s74328
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/SettingsController.o
-t1294175035
-s54036
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit-checker
-t1294175037
-s69888
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit-checker.LinkFileList
-c000000004D238B28000000000000056A
-t1294175016
-s1386
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit_checkerAppDelegate.o
-t1294175034
-s50364
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/main.o
-t1294175034
-s6448
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/AddCourse.o
-t1294175037
-s45052
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/DetailCell.o
-t1294175038
-s42012
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/DetailController.o
-t1294175038
-s79212
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/EGORefreshTableHeaderView.o
-t1294175037
-s52620
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/FirstViewController.o
-t1294175036
-s34812
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/LoginController.o
-t1294175037
-s45876
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/MainViewController.o
-t1294175037
-s74284
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/SettingsController.o
-t1294175037
-s53904
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit-checker
-t1294175038
-s69536
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit-checker.LinkFileList
-c000000004D238B28000000000000056A
-t1294175016
-s1386
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit_checkerAppDelegate.o
-t1294175036
-s50376
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/main.o
-t1294175036
-s6428
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker.xcent
-t1294175038
-s416
-
-N/Users/dominik/prace/iphone/fit-checker/cvut-logo-inverzni-364x275.jpg
-c000000004D2345450000000000006E73
-t1294157125
-s28275
-
-N/Users/dominik/prace/iphone/fit-checker/fit_checker_Prefix.pch
-c000000004D1C08140000000000000144
-t1293682708
-s324
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/dominik/prace/iphone/fit-checker/main.m
-c000000004D1BBF4A000000000000015F
-t1293664074
-s351
-i<UIKit/UIKit.h>
-
-N/Users/dominik/prace/iphone/fit-checker/sp-bg.png
-c000000004D20938B000000000000027A
-t1293980555
-s634
-
-N/var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch.gch
-t1294175033
-s10094128
-
-N/var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch.gch
-t1294175033
-s9639472
-
-Nfit_checker-Info.plist
-c000000004D2388B40000000000000375
-t1294174388
-s885
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies315867816#315867816#0(0"0(0#1#0"8674586848#0"0#
-
-CCodeSign /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app
-s315867838.918696
-e315867839.692564
-r1
-xCodeSign
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app
-lSLF07#2@47"CodeSign build/Release-iphoneos/fit-checker.app315867838#315867839#0(0"0(0#0#78"/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app8688806944#680"    cd /Users/dominik/prace/iphone/fit-checker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Dominik Vesely (PK4JSKX78K)" --resource-rules=/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/ResourceRules.plist --entitlements /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker.xcent /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/AddCourse.o /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867834.850010
-e315867835.062027
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/AddCourse.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m315867834#315867835#0(0"0(0#0#59"/Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m8631334688#1892"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/AddCourse.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/DetailCell.o /Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867835.822590
-e315867836.176532
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/DetailCell.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m315867835#315867836#0(0"0(0#0#68"/Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m8673932992#1902"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/DetailCell.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/DetailController.o /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867835.735459
-e315867837.050772
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/DetailController.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m315867835#315867837#0(0"0(0#0#66"/Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m8657483968#1906"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/DetailController.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/EGORefreshTableHeaderView.o /Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867835.297845
-e315867835.822479
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/EGORefreshTableHeaderView.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@114"Compile /Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m315867835#315867835#0(0"0(0#0#106"/Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m8686881472#1955"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/EGORefreshTableHeaderView.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/FirstViewController.o /Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867834.726085
-e315867834.849904
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/FirstViewController.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m315867834#315867834#0(0"0(0#0#69"/Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m8682097696#1912"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/FirstViewController.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/LoginController.o /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867835.062131
-e315867835.297734
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/LoginController.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m315867835#315867835#0(0"0(0#0#65"/Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m8687844512#1904"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/LoginController.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/MainViewController.o /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867835.319513
-e315867835.735361
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/MainViewController.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m315867835#315867835#0(0"0(0#0#68"/Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m8680870336#1910"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/MainViewController.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/SettingsController.o /Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867834.816471
-e315867835.319411
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/SettingsController.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m315867834#315867835#0(0"0(0#0#71"/Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m8658883392#1913"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/SettingsController.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit_checkerAppDelegate.o /Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867833.957765
-e315867834.816362
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit_checkerAppDelegate.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m315867833#315867834#0(0"0(0#0#72"/Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m8668451968#1918"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit_checkerAppDelegate.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/main.o /Users/dominik/prace/iphone/fit-checker/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867833.955704
-e315867834.725785
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/main.o
-x/Users/dominik/prace/iphone/fit-checker/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/dominik/prace/iphone/fit-checker/main.m315867833#315867834#0(0"0(0#0#46"/Users/dominik/prace/iphone/fit-checker/main.m8685843232#1874"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/main.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/AddCourse.o /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867837.224756
-e315867837.497804
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/AddCourse.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m315867837#315867837#0(0"0(0#0#59"/Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m8681941504#1892"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/AddCourse.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/DetailCell.o /Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867837.981216
-e315867838.225358
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/DetailCell.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m315867837#315867838#0(0"0(0#0#68"/Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m8664930464#1902"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/../View/DetailCell.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/DetailCell.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/DetailController.o /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867837.965908
-e315867838.617671
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/DetailController.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m315867837#315867838#0(0"0(0#0#66"/Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m8671893568#1906"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/DetailController.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/EGORefreshTableHeaderView.o /Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867837.497913
-e315867837.965614
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/EGORefreshTableHeaderView.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@114"Compile /Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m315867837#315867837#0(0"0(0#0#106"/Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m8699824800#1955"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/../View/RefreshTableHeaderView/EGORefreshTableHeaderView.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/EGORefreshTableHeaderView.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/FirstViewController.o /Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867836.655135
-e315867836.785602
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/FirstViewController.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m315867836#315867836#0(0"0(0#0#69"/Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m8683662496#1912"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/FirstViewController.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/FirstViewController.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/LoginController.o /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867837.242110
-e315867837.533620
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/LoginController.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m315867837#315867837#0(0"0(0#0#65"/Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m8672704224#1904"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/LoginController.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/MainViewController.o /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867837.533939
-e315867837.981097
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/MainViewController.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m315867837#315867837#0(0"0(0#0#68"/Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m8684139392#1910"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/MainViewController.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/SettingsController.o /Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867836.785716
-e315867837.224574
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/SettingsController.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m315867836#315867837#0(0"0(0#0#71"/Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m8671832192#1913"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/../SettingsController.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/SettingsController.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit_checkerAppDelegate.o /Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867836.362502
-e315867836.654989
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit_checkerAppDelegate.o
-x/Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m315867836#315867836#0(0"0(0#0#72"/Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m8681332832#1918"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/Classes/fit_checkerAppDelegate.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit_checkerAppDelegate.o0#
-
-CCompileC build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/main.o /Users/dominik/prace/iphone/fit-checker/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867836.176646
-e315867836.362209
-r1
-xCompileC
-xbuild/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/main.o
-x/Users/dominik/prace/iphone/fit-checker/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/dominik/prace/iphone/fit-checker/main.m315867836#315867836#0(0"0(0#0#46"/Users/dominik/prace/iphone/fit-checker/main.m8669744224#1874"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch -c /Users/dominik/prace/iphone/fit-checker/main.m -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/AboutTab.xib
-s315867823.238454
-e315867824.095321
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/AboutTab.xib
-lSLF07#2@23"CompileXIB AboutTab.xib315867823#315867824#0(0"0(0#0#52"/Users/dominik/prace/iphone/fit-checker/AboutTab.xib8688718976#547"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/AboutTab.nib /Users/dominik/prace/iphone/fit-checker/AboutTab.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.xib
-s315867819.671934
-e315867820.928501
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.xib
-lSLF07#2@32"CompileXIB Classes/AddCourse.xib315867819#315867820#0(0"0(0#0#61"/Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.xib8623556640#557"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/AddCourse.nib /Users/dominik/prace/iphone/fit-checker/Classes/AddCourse.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.xib
-s315867820.928604
-e315867821.797293
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/Classes/DetailController.xib
-lSLF07#2@39"CompileXIB Classes/DetailController.xib315867820#315867821#0(0"0(0#0#68"/Users/dominik/prace/iphone/fit-checker/Classes/DetailController.xib8677490688#571"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/DetailController.nib /Users/dominik/prace/iphone/fit-checker/Classes/DetailController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.xib
-s315867819.698840
-e315867820.730699
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/Classes/LoginController.xib
-lSLF07#2@38"CompileXIB Classes/LoginController.xib315867819#315867820#0(0"0(0#0#67"/Users/dominik/prace/iphone/fit-checker/Classes/LoginController.xib8606347072#569"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/LoginController.nib /Users/dominik/prace/iphone/fit-checker/Classes/LoginController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.xib
-s315867820.897380
-e315867821.617264
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.xib
-lSLF07#2@41"CompileXIB Classes/MainViewController.xib315867820#315867821#0(0"0(0#0#70"/Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.xib8680654624#575"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/MainViewController.nib /Users/dominik/prace/iphone/fit-checker/Classes/MainViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/DetailCell.xib
-s315867821.617359
-e315867822.628596
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/DetailCell.xib
-lSLF07#2@25"CompileXIB DetailCell.xib315867821#315867822#0(0"0(0#0#54"/Users/dominik/prace/iphone/fit-checker/DetailCell.xib8693602304#551"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/DetailCell.nib /Users/dominik/prace/iphone/fit-checker/DetailCell.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/FirstView.xib
-s315867818.618947
-e315867819.698741
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/FirstView.xib
-lSLF07#2@24"CompileXIB FirstView.xib315867818#315867819#0(0"0(0#0#53"/Users/dominik/prace/iphone/fit-checker/FirstView.xib8662253280#549"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/FirstView.nib /Users/dominik/prace/iphone/fit-checker/FirstView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/MainWindow.xib
-s315867816.408245
-e315867818.852810
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib315867816#315867818#0(0"0(0#0#54"/Users/dominik/prace/iphone/fit-checker/MainWindow.xib8710713792#551"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/MainWindow.nib /Users/dominik/prace/iphone/fit-checker/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/SecondView.xib
-s315867816.410859
-e315867818.618660
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/SecondView.xib
-lSLF07#2@25"CompileXIB SecondView.xib315867816#315867818#0(0"0(0#0#54"/Users/dominik/prace/iphone/fit-checker/SecondView.xib8688625056#551"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/SecondView.nib /Users/dominik/prace/iphone/fit-checker/SecondView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/Spinner.xib
-s315867821.908841
-e315867823.238362
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/Spinner.xib
-lSLF07#2@22"CompileXIB Spinner.xib315867821#315867823#0(0"0(0#0#51"/Users/dominik/prace/iphone/fit-checker/Spinner.xib8658703040#545"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Spinner.nib /Users/dominik/prace/iphone/fit-checker/Spinner.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/dominik/prace/iphone/fit-checker/about.xib
-s315867822.733689
-e315867823.707514
-r1
-xCompileXIB
-x/Users/dominik/prace/iphone/fit-checker/about.xib
-lSLF07#2@20"CompileXIB about.xib315867822#315867823#0(0"0(0#0#49"/Users/dominik/prace/iphone/fit-checker/about.xib8672515968#541"    cd /Users/dominik/prace/iphone/fit-checker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/about.nib /Users/dominik/prace/iphone/fit-checker/about.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/13-target.png 13-target.png
-s315867822.693227
-e315867822.733589
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/13-target.png
-x13-target.png
-lSLF07#2@78"CopyPNGFile build/Release-iphoneos/fit-checker.app/13-target.png 13-target.png315867822#315867822#0(0"0(0#0#53"/Users/dominik/prace/iphone/fit-checker/13-target.png8673770688#575"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/13-target.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/13-target.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/140-gradhat.png Classes/140-gradhat.png
-s315867821.872481
-e315867821.908741
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/140-gradhat.png
-xClasses/140-gradhat.png
-lSLF07#2@90"CopyPNGFile build/Release-iphoneos/fit-checker.app/140-gradhat.png Classes/140-gradhat.png315867821#315867821#0(0"0(0#0#63"/Users/dominik/prace/iphone/fit-checker/Classes/140-gradhat.png8661615616#587"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/Classes/140-gradhat.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/140-gradhat.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/16-line-chart.png 16-line-chart.png
-s315867818.852907
-e315867819.633661
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/16-line-chart.png
-x16-line-chart.png
-lSLF07#2@86"CopyPNGFile build/Release-iphoneos/fit-checker.app/16-line-chart.png 16-line-chart.png315867818#315867819#0(0"0(0#0#57"/Users/dominik/prace/iphone/fit-checker/16-line-chart.png8672335968#583"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/16-line-chart.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/16-line-chart.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/20-gear2.png ../../../Downloads/glyphish-icons/icons/20-gear2.png
-s315867819.633780
-e315867819.671847
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/20-gear2.png
-x../../../Downloads/glyphish-icons/icons/20-gear2.png
-lSLF07#2@116"CopyPNGFile build/Release-iphoneos/fit-checker.app/20-gear2.png ../../../Downloads/glyphish-icons/icons/20-gear2.png315867819#315867819#0(0"0(0#0#92"/Users/dominik/prace/iphone/fit-checker/../../../Downloads/glyphish-icons/icons/20-gear2.png8644188032#613"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/../../../Downloads/glyphish-icons/icons/20-gear2.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/20-gear2.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/DarkBackground.png DarkBackground.png
-s315867821.797390
-e315867821.832566
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/DarkBackground.png
-xDarkBackground.png
-lSLF07#2@88"CopyPNGFile build/Release-iphoneos/fit-checker.app/DarkBackground.png DarkBackground.png315867821#315867821#0(0"0(0#0#58"/Users/dominik/prace/iphone/fit-checker/DarkBackground.png8665846816#585"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/DarkBackground.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/DarkBackground.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-72.png Icon-72.png
-s315867824.167475
-e315867824.284546
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-72.png
-xIcon-72.png
-lSLF07#2@74"CopyPNGFile build/Release-iphoneos/fit-checker.app/Icon-72.png Icon-72.png315867824#315867824#0(0"0(0#0#51"/Users/dominik/prace/iphone/fit-checker/Icon-72.png8619817248#571"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/Icon-72.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-72.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small-50.png Icon-Small-50.png
-s315867824.413836
-e315867825.083292
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small-50.png
-xIcon-Small-50.png
-lSLF07#2@86"CopyPNGFile build/Release-iphoneos/fit-checker.app/Icon-Small-50.png Icon-Small-50.png315867824#315867825#0(0"0(0#0#57"/Users/dominik/prace/iphone/fit-checker/Icon-Small-50.png8657998656#583"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/Icon-Small-50.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small-50.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small.png Icon-Small.png
-s315867824.284631
-e315867824.333485
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small.png
-xIcon-Small.png
-lSLF07#2@80"CopyPNGFile build/Release-iphoneos/fit-checker.app/Icon-Small.png Icon-Small.png315867824#315867824#0(0"0(0#0#54"/Users/dominik/prace/iphone/fit-checker/Icon-Small.png8671581120#577"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/Icon-Small.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small@2x.png Icon-Small@2x.png
-s315867824.096231
-e315867824.167172
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small@2x.png
-xIcon-Small@2x.png
-lSLF07#2@86"CopyPNGFile build/Release-iphoneos/fit-checker.app/Icon-Small@2x.png Icon-Small@2x.png315867824#315867824#0(0"0(0#0#57"/Users/dominik/prace/iphone/fit-checker/Icon-Small@2x.png8622646144#583"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/Icon-Small@2x.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon-Small@2x.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon.png Icon.png
-s315867824.333589
-e315867824.413734
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon.png
-xIcon.png
-lSLF07#2@68"CopyPNGFile build/Release-iphoneos/fit-checker.app/Icon.png Icon.png315867824#315867824#0(0"0(0#0#48"/Users/dominik/prace/iphone/fit-checker/Icon.png8667970848#565"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/Icon.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon@2x.png Icon@2x.png
-s315867824.777359
-e315867824.836325
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon@2x.png
-xIcon@2x.png
-lSLF07#2@74"CopyPNGFile build/Release-iphoneos/fit-checker.app/Icon@2x.png Icon@2x.png315867824#315867824#0(0"0(0#0#51"/Users/dominik/prace/iphone/fit-checker/Icon@2x.png8654712160#571"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/Icon@2x.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Icon@2x.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/ItunesArtwork.png ItunesArtwork.png
-s315867823.707620
-e315867824.777260
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/ItunesArtwork.png
-xItunesArtwork.png
-lSLF07#2@86"CopyPNGFile build/Release-iphoneos/fit-checker.app/ItunesArtwork.png ItunesArtwork.png315867823#315867824#0(0"0(0#0#57"/Users/dominik/prace/iphone/fit-checker/ItunesArtwork.png8671889056#583"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/ItunesArtwork.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/ItunesArtwork.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/LightBackground.png LightBackground.png
-s315867821.832663
-e315867821.872385
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/LightBackground.png
-xLightBackground.png
-lSLF07#2@90"CopyPNGFile build/Release-iphoneos/fit-checker.app/LightBackground.png LightBackground.png315867821#315867821#0(0"0(0#0#59"/Users/dominik/prace/iphone/fit-checker/LightBackground.png8663973504#587"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/LightBackground.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/LightBackground.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/blueArrow.png blueArrow.png
-s315867820.730980
-e315867820.799586
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/blueArrow.png
-xblueArrow.png
-lSLF07#2@78"CopyPNGFile build/Release-iphoneos/fit-checker.app/blueArrow.png blueArrow.png315867820#315867820#0(0"0(0#0#53"/Users/dominik/prace/iphone/fit-checker/blueArrow.png8672576288#575"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/blueArrow.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/blueArrow.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/blueArrow@2x.png blueArrow@2x.png
-s315867820.799708
-e315867820.897300
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/blueArrow@2x.png
-xblueArrow@2x.png
-lSLF07#2@84"CopyPNGFile build/Release-iphoneos/fit-checker.app/blueArrow@2x.png blueArrow@2x.png315867820#315867820#0(0"0(0#0#56"/Users/dominik/prace/iphone/fit-checker/blueArrow@2x.png8671769792#581"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/blueArrow@2x.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/blueArrow@2x.png0#
-
-CCopyPNGFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/sp-bg.png sp-bg.png
-s315867822.628915
-e315867822.693116
-r1
-xCopyPNGFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/sp-bg.png
-xsp-bg.png
-lSLF07#2@70"CopyPNGFile build/Release-iphoneos/fit-checker.app/sp-bg.png sp-bg.png315867822#315867822#0(0"0(0#0#49"/Users/dominik/prace/iphone/fit-checker/sp-bg.png8677913408#567"    cd /Users/dominik/prace/iphone/fit-checker    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dominik/prace/iphone/fit-checker/sp-bg.png /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/sp-bg.png0#
-
-CCpResource build/Release-iphoneos/fit-checker.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-s315867816.270082
-e315867816.408160
-r1
-xCpResource
-xbuild/Release-iphoneos/fit-checker.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist315867816#315867816#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8706202016#509"    cd /Users/dominik/prace/iphone/fit-checker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app0#
-
-CCpResource build/Release-iphoneos/fit-checker.app/cvut-logo-inverzni-364x275.jpg cvut-logo-inverzni-364x275.jpg
-s315867824.095421
-e315867824.108368
-r1
-xCpResource
-xbuild/Release-iphoneos/fit-checker.app/cvut-logo-inverzni-364x275.jpg
-xcvut-logo-inverzni-364x275.jpg
-lSLF07#2@35"Copy cvut-logo-inverzni-364x275.jpg315867824#315867824#0(0"0(0#0#70"/Users/dominik/prace/iphone/fit-checker/cvut-logo-inverzni-364x275.jpg8636325504#490"    cd /Users/dominik/prace/iphone/fit-checker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/dominik/prace/iphone/fit-checker/cvut-logo-inverzni-364x275.jpg /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app0#
-
-CCreateUniversalBinary /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/fit-checker normal "armv6 armv7"
-s315867838.695399
-e315867838.701986
-r1
-xCreateUniversalBinary
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/fit-checker
-xnormal
-xarmv6 armv7
-lSLF07#2@93"CreateUniversalBinary build/Release-iphoneos/fit-checker.app/fit-checker normal "armv6 armv7"315867838#315867838#0(0"0(0#0#51"/Users/dominik/prace/iphone/fit-checker/armv6 armv78680957760#560"    cd /Users/dominik/prace/iphone/fit-checker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit-checker /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit-checker -output /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/fit-checker0#
-
-CGenerateDSYMFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app.dSYM /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/fit-checker
-s315867838.702087
-e315867838.849485
-r1
-xGenerateDSYMFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app.dSYM
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/fit-checker
-lSLF07#2@111"GenerateDSYMFile build/Release-iphoneos/fit-checker.app.dSYM build/Release-iphoneos/fit-checker.app/fit-checker315867838#315867838#0(0"0(0#0#90"/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/fit-checker8673214240#381"    cd /Users/dominik/prace/iphone/fit-checker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/fit-checker -o /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app.dSYM0#
-
-CLd /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit-checker normal armv6
-s315867837.050863
-e315867837.241988
-r1
-xLd
-x/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit-checker
-xnormal
-xarmv6
-lSLF07#2@136"Link /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit-checker315867837#315867837#0(0"0(0#0#0"8690176640#918"    cd /Users/dominik/prace/iphone/fit-checker    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -filelist /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit-checker.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv6/fit-checker0#
-
-CLd /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit-checker normal armv7
-s315867838.617764
-e315867838.695242
-r1
-xLd
-x/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit-checker
-xnormal
-xarmv7
-lSLF07#2@136"Link /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit-checker315867838#315867838#0(0"0(0#0#0"8690038528#918"    cd /Users/dominik/prace/iphone/fit-checker    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -filelist /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit-checker.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/Objects-normal/armv7/fit-checker0#
-
-CProcessInfoPlistFile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Info.plist fit_checker-Info.plist
-s315867816.315551
-e315867816.372734
-r1
-xProcessInfoPlistFile
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Info.plist
-xfit_checker-Info.plist
-lSLF07#2@30"Process fit_checker-Info.plist315867816#315867816#0(0"0(0#0#62"/Users/dominik/prace/iphone/fit-checker/fit_checker-Info.plist8667661632#588"    cd /Users/dominik/prace/iphone/fit-checker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility fit_checker-Info.plist -genpkginfo /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/ResourceRules.plist -o /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/Info.plist0#
-
-CProcessPCH /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch.gch fit_checker_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s315867825.084483
-e315867833.955560
-r1
-xProcessPCH
-x/var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch.gch
-xfit_checker_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile fit_checker_Prefix.pch315867825#315867833#0(0"0(0#0#62"/Users/dominik/prace/iphone/fit-checker/fit_checker_Prefix.pch8646982976#1765"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv7 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/dominik/prace/iphone/fit-checker/fit_checker_Prefix.pch -o /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-cqrxacedaccfivfybrgnshqncxbs/fit_checker_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch.gch fit_checker_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s315867825.083429
-e315867833.157890
-r1
-xProcessPCH
-x/var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch.gch
-xfit_checker_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile fit_checker_Prefix.pch315867825#315867833#0(0"0(0#0#62"/Users/dominik/prace/iphone/fit-checker/fit_checker_Prefix.pch8650088352#1765"    cd /Users/dominik/prace/iphone/fit-checker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-generated-files.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-own-target-headers.hmap -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-all-target-headers.hmap -iquote /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker-project-headers.hmap -F/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos -I/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/include -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources/armv6 -I/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/dominik/prace/iphone/fit-checker/fit_checker_Prefix.pch -o /var/folders/fz/fzeSqHHCGBm6wGXbyt5dcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fit_checker_Prefix-dgmsicyglptlzbctqkbvfydaazya/fit_checker_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/dominik/Library/MobileDevice/Provisioning Profiles/03F23C86-2F60-471B-8E92-4209B8A5FC78.mobileprovision" /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/embedded.mobileprovision
-s315867838.849606
-e315867838.862712
-r1
-xProcessProductPackaging
-x/Users/dominik/Library/MobileDevice/Provisioning Profiles/03F23C86-2F60-471B-8E92-4209B8A5FC78.mobileprovision
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/embedded.mobileprovision
-lSLF07#2@200"ProcessProductPackaging "/Users/dominik/Library/MobileDevice/Provisioning Profiles/03F23C86-2F60-471B-8E92-4209B8A5FC78.mobileprovision" build/Release-iphoneos/fit-checker.app/embedded.mobileprovision315867838#315867838#0(0"0(0#0#103"/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/embedded.mobileprovision8663725792#433"    cd /Users/dominik/prace/iphone/fit-checker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/dominik/Library/MobileDevice/Provisioning Profiles/03F23C86-2F60-471B-8E92-4209B8A5FC78.mobileprovision" -o /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker.xcent
-s315867838.894969
-e315867838.918619
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-x/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker.xcent
-lSLF07#2@189"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker.xcent315867838#315867838#0(0"0(0#0#116"/Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker.xcent8642651072#448"    cd /Users/dominik/prace/iphone/fit-checker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/dominik/prace/iphone/fit-checker/build/fit-checker.build/Release-iphoneos/fit-checker.build/fit-checker.xcent0#
-
-CTouch /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app
-s315867838.862787
-e315867838.894851
-r1
-xTouch
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app
-lSLF07#2@84"Touch /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app315867838#315867838#0(0"0(0#0#0"8624932352#272"    cd /Users/dominik/prace/iphone/fit-checker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app0#
-
-CValidate /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app
-s315867839.692749
-e315867840.231156
-r1
-xValidate
-x/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app
-lSLF07#2@47"Validate build/Release-iphoneos/fit-checker.app315867839#315867840#0(0"0(0#0#78"/Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app8677927936#381"    cd /Users/dominik/prace/iphone/fit-checker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/dominik/prace/iphone/fit-checker/build/Release-iphoneos/fit-checker.app0#
-
