@@ -7,7 +7,6 @@
 //
 
 #import "SettingsController.h"
-#import "FirstViewController.h"
 #import "AddCourse.h"
 
 
@@ -148,33 +147,6 @@
     }
 	
 }
-
-/*
-- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
-	
-	NSLog(@"aaaaaa");
-	FirstViewController *trailDetailController = [[FirstViewController alloc] init];
-	
-	
-    [[self navigationController] pushViewController:trailDetailController animated:YES];
-	
-    [trailDetailController release];
-	
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSLog(@"lol");
-	FirstViewController *trailDetailController = [[FirstViewController alloc] init];
-	
-	
-    [[self navigationController] pushViewController:trailDetailController animated:YES];
-	
-    [trailDetailController release];
-	
-}
-*/
-
-
 
 - (IBAction)add {	
 	AddCourse *addcourse  = [[AddCourse alloc] init];

@@ -12,10 +12,8 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
-		B4583E7612CC03CB00979942 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4583E7512CC03CB00979942 /* SettingsController.m */; };
 		B458408F12CC26F300979942 /* AddCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = B458408D12CC26F300979942 /* AddCourse.m */; };
 		B458419C12CC335500979942 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = B458419A12CC335500979942 /* LoginController.m */; };
-		B458425312CC3D1700979942 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B458425112CC3D1700979942 /* EGORefreshTableHeaderView.m */; };
 		B458426212CC3E1800979942 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B458426012CC3E1800979942 /* MainViewController.m */; };
 		B458429012CC3FF300979942 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B458428F12CC3FF300979942 /* QuartzCore.framework */; };
 		B458447C12CC57B500979942 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B458447A12CC57B500979942 /* DetailController.m */; };
@@ -41,13 +39,13 @@
 		B47DFFE71401C71700CA7F6E /* AddCourse.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47DFFCA1401C71700CA7F6E /* AddCourse.xib */; };
 		B47DFFE81401C71700CA7F6E /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47DFFCB1401C71700CA7F6E /* DetailCell.xib */; };
 		B47DFFE91401C71700CA7F6E /* DetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47DFFCC1401C71700CA7F6E /* DetailController.xib */; };
-		B47DFFEA1401C71700CA7F6E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47DFFCD1401C71700CA7F6E /* FirstView.xib */; };
 		B47DFFEB1401C71700CA7F6E /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47DFFCE1401C71700CA7F6E /* LoginController.xib */; };
 		B47DFFEC1401C71700CA7F6E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47DFFCF1401C71700CA7F6E /* MainViewController.xib */; };
 		B47DFFED1401C71700CA7F6E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47DFFD01401C71700CA7F6E /* MainWindow.xib */; };
 		B47DFFEE1401C71700CA7F6E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47DFFD11401C71700CA7F6E /* SecondView.xib */; };
 		B47DFFEF1401C71700CA7F6E /* Spinner.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47DFFD21401C71700CA7F6E /* Spinner.xib */; };
 		B47DFFF01401C71700CA7F6E /* treti.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47DFFD31401C71700CA7F6E /* treti.xib */; };
+		B4B7A3241401D7E1001CAC6B /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B7A3221401D7E1001CAC6B /* SettingsController.m */; };
 		B4F6F31912CCF92600BAC4E3 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F6F31812CCF92600BAC4E3 /* DetailCell.m */; };
 /* End PBXBuildFile section */
 
@@ -60,14 +58,10 @@
 		28A0AB4B0D9B1048005BE974 /* fit_checker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fit_checker_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* fit_checker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fit_checker-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		B4583E7412CC03CB00979942 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsController.h; path = ../SettingsController.h; sourceTree = "<group>"; };
-		B4583E7512CC03CB00979942 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsController.m; path = ../SettingsController.m; sourceTree = "<group>"; };
 		B458408C12CC26F300979942 /* AddCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCourse.h; sourceTree = "<group>"; };
 		B458408D12CC26F300979942 /* AddCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCourse.m; sourceTree = "<group>"; };
 		B458419912CC335500979942 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		B458419A12CC335500979942 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
-		B458425012CC3D1700979942 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
-		B458425112CC3D1700979942 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
 		B458425F12CC3E1800979942 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B458426012CC3E1800979942 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		B458428F12CC3FF300979942 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -96,13 +90,14 @@
 		B47DFFCA1401C71700CA7F6E /* AddCourse.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCourse.xib; sourceTree = "<group>"; };
 		B47DFFCB1401C71700CA7F6E /* DetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
 		B47DFFCC1401C71700CA7F6E /* DetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailController.xib; sourceTree = "<group>"; };
-		B47DFFCD1401C71700CA7F6E /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
 		B47DFFCE1401C71700CA7F6E /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
 		B47DFFCF1401C71700CA7F6E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		B47DFFD01401C71700CA7F6E /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		B47DFFD11401C71700CA7F6E /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
 		B47DFFD21401C71700CA7F6E /* Spinner.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Spinner.xib; sourceTree = "<group>"; };
 		B47DFFD31401C71700CA7F6E /* treti.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = treti.xib; sourceTree = "<group>"; };
+		B4B7A3221401D7E1001CAC6B /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		B4B7A3231401D7E1001CAC6B /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
 		B4F6F31712CCF92600BAC4E3 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
 		B4F6F31812CCF92600BAC4E3 /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,12 +120,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B4B7A3221401D7E1001CAC6B /* SettingsController.m */,
+				B4B7A3231401D7E1001CAC6B /* SettingsController.h */,
 				B458447912CC57B500979942 /* DetailController.h */,
 				B458447A12CC57B500979942 /* DetailController.m */,
 				B458419912CC335500979942 /* LoginController.h */,
 				B458419A12CC335500979942 /* LoginController.m */,
-				B4583E7412CC03CB00979942 /* SettingsController.h */,
-				B4583E7512CC03CB00979942 /* SettingsController.m */,
 				1D3623240D0F684500981E51 /* fit_checkerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* fit_checkerAppDelegate.m */,
 				B458408C12CC26F300979942 /* AddCourse.h */,
@@ -196,19 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				B4F6F31612CCF8F300BAC4E3 /* DetailCell */,
-				B458424F12CC3D1700979942 /* RefreshTableHeaderView */,
 			);
 			name = View;
 			path = ../View;
-			sourceTree = "<group>";
-		};
-		B458424F12CC3D1700979942 /* RefreshTableHeaderView */ = {
-			isa = PBXGroup;
-			children = (
-				B458425012CC3D1700979942 /* EGORefreshTableHeaderView.h */,
-				B458425112CC3D1700979942 /* EGORefreshTableHeaderView.m */,
-			);
-			path = RefreshTableHeaderView;
 			sourceTree = "<group>";
 		};
 		B47DFFB51401C71700CA7F6E /* images */ = {
@@ -244,7 +229,6 @@
 				B47DFFCA1401C71700CA7F6E /* AddCourse.xib */,
 				B47DFFCB1401C71700CA7F6E /* DetailCell.xib */,
 				B47DFFCC1401C71700CA7F6E /* DetailController.xib */,
-				B47DFFCD1401C71700CA7F6E /* FirstView.xib */,
 				B47DFFCE1401C71700CA7F6E /* LoginController.xib */,
 				B47DFFCF1401C71700CA7F6E /* MainViewController.xib */,
 				B47DFFD01401C71700CA7F6E /* MainWindow.xib */,
@@ -335,7 +319,6 @@
 				B47DFFE71401C71700CA7F6E /* AddCourse.xib in Resources */,
 				B47DFFE81401C71700CA7F6E /* DetailCell.xib in Resources */,
 				B47DFFE91401C71700CA7F6E /* DetailController.xib in Resources */,
-				B47DFFEA1401C71700CA7F6E /* FirstView.xib in Resources */,
 				B47DFFEB1401C71700CA7F6E /* LoginController.xib in Resources */,
 				B47DFFEC1401C71700CA7F6E /* MainViewController.xib in Resources */,
 				B47DFFED1401C71700CA7F6E /* MainWindow.xib in Resources */,
@@ -354,13 +337,12 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* fit_checkerAppDelegate.m in Sources */,
-				B4583E7612CC03CB00979942 /* SettingsController.m in Sources */,
 				B458408F12CC26F300979942 /* AddCourse.m in Sources */,
 				B458419C12CC335500979942 /* LoginController.m in Sources */,
-				B458425312CC3D1700979942 /* EGORefreshTableHeaderView.m in Sources */,
 				B458426212CC3E1800979942 /* MainViewController.m in Sources */,
 				B458447C12CC57B500979942 /* DetailController.m in Sources */,
 				B4F6F31912CCF92600BAC4E3 /* DetailCell.m in Sources */,
+				B4B7A3241401D7E1001CAC6B /* SettingsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +360,7 @@
 				GCC_PREFIX_HEADER = fit_checker_Prefix.pch;
 				INFOPLIST_FILE = "fit_checker-Info.plist";
 				PRODUCT_NAME = "fit-checker";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -390,6 +373,7 @@
 				GCC_PREFIX_HEADER = fit_checker_Prefix.pch;
 				INFOPLIST_FILE = "fit_checker-Info.plist";
 				PRODUCT_NAME = "fit-checker";
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -420,6 +404,7 @@
 				INFOPLIST_FILE = "fit_checker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "fit-checker";
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
