@@ -11749,7 +11749,7 @@
 			</dict>
 		</dict>
 		<string>file://localhost/Users/dominik/prace/ios/fit-checker/fit-checker.xcodeproj/</string>
-		<real>335666004.41081703</real>
+		<real>335666164.64922702</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18391,7 +18391,7 @@
 				<integer>1157</integer>
 			</dict>
 		</dict>
-		<real>335666004.40663397</real>
+		<real>335666164.64340699</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20749,8 +20749,8 @@
 		<string>PrimaryDocumentSelectedCharacterRange</string>
 		<string>PrimaryDocumentTimestamp</string>
 		<string>PrimaryDocumentVisibleCharacterRange</string>
-		<real>335666004.40685999</real>
-		<string>{0, 642}</string>
+		<real>335666164.64367598</real>
+		<string>{213363, 610}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
