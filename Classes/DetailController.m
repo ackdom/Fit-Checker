@@ -116,9 +116,13 @@
 		[alert show];
 		[alert release];	
 	}
+    
+    
+    
 	
 	NSData *stringData = [myString dataUsingEncoding: NSASCIIStringEncoding allowLossyConversion: YES];	
 	NSXMLParser *parser = [[NSXMLParser alloc] initWithData:stringData];
+    
 	
     // Tell NSXMLParser that this class is its delegate
     [parser setDelegate:self];
@@ -132,6 +136,8 @@
     [parser release];
 	[myString release];
 	
+    [self checkData:self.tableData];
+
 	
 	[self.table reloadData];
 	
@@ -166,6 +172,33 @@ didReceiveResponse:(NSURLResponse*)response
 
 -(void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
 }
+
+
+#pragma mark -
+#pragma mark SameValuesLogic
+
+- (void) checkData:(NSMutableArray*) data {
+    
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    NSMutableArray* oldData = [defaults objectForKey:self.titleString];
+    
+    if(oldData != nil) {
+        if([data isEqualToArray:oldData]) {
+            UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Žádná změna" 
+                                                      message:@"V tomto předmětu nenastaly žádné změny od poslední aktualizace" 
+                                                      delegate:nil 
+                                                      cancelButtonTitle:@"OK" 
+                                                      otherButtonTitles: nil];
+            [alert show];
+            [alert release];
+        }
+    }
+    
+    [defaults setObject:data forKey:self.titleString];
+    [defaults synchronize];
+    
+}
+
 
 #pragma mark AlertDelegate
 
@@ -211,6 +244,9 @@ clickedButtonAtIndex: (NSInteger) buttonIndex {
 		count++;
 	}
 }
+
+
+
 
 #pragma mark tableData
 

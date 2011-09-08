@@ -26,6 +26,7 @@
 }
 
 -(void) createConnection;
+-(void) checkData:(NSMutableArray*) data;
 
 
 @property (readwrite,retain) MainViewController *mainController	;

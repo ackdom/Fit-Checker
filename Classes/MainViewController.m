@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 #import "DetailController.h"
-
+#import "UIColor+Category.h"
 
 @implementation MainViewController
 @synthesize spinner;
@@ -40,6 +40,13 @@
 		return;
 		
 	}
+    
+    //Table Settings
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.backgroundColor = [UIColor colorFromHexString:@"#fff4d8"];
+    self.tableView.rowHeight = 60;
+    
+        
 	self.courses = (NSMutableArray*) [defaults objectForKey:@"courses"];
 
 	if (_reload) {
@@ -54,6 +61,7 @@
     application.networkActivityIndicatorVisible = YES;
 	
 	self.tableView.allowsSelection = NO;
+    
 	[self.view addSubview:spinView]; 		
 	
 	NSString* content = @"authnProvider=2&u=XX&p=YY" ;
@@ -191,14 +199,29 @@ didReceiveResponse:(NSURLResponse*)response
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"Cell2";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
+        
+    
+    
+    
     cell.textLabel.text = [courses objectAtIndex:indexPath.row];
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
+    UIView* backgroundView = [ [ [ UIView alloc ] initWithFrame:CGRectZero ] autorelease ];
+    if(indexPath.row % 2 == 0) {
+         backgroundView.backgroundColor = [UIColor colorFromHexString:@"#c2b59b"];
+    } else {
+         backgroundView.backgroundColor = [UIColor colorFromHexString:@"#fff4d8"];
+    }   
+    cell.backgroundView = backgroundView;
+    for ( UIView* view in cell.contentView.subviews ) {
+        view.backgroundColor = [ UIColor clearColor ];
+    }   
 	
     return cell;
 }

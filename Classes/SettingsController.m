@@ -8,6 +8,7 @@
 
 #import "SettingsController.h"
 #import "AddCourse.h"
+#import "UIColor+Category.h"
 
 
 @implementation SettingsController
@@ -84,6 +85,22 @@
 	}
     
 	cell.textLabel.text = (NSString*)[courses objectAtIndex:indexPath.row];
+    /*UIView* backgroundView = [ [ [ UIView alloc ] initWithFrame:CGRectZero ] autorelease ];
+    if(indexPath.row % 2 == 0) {
+        backgroundView.backgroundColor = [UIColor colorFromHexString:@"#c2b59b"];
+    } else {
+        backgroundView.backgroundColor = [UIColor colorFromHexString:@"#fff4d8"];
+    }   
+    cell.backgroundView = backgroundView;
+    for ( UIView* view in cell.contentView.subviews ) {
+        view.backgroundColor = [ UIColor clearColor ];
+    }   */
+
+    
+    //cell.textLabel.textColor = [UIColor colorFromHexString:@"#3e4d71"];
+    //cell.contentView.backgroundColor = [UIColor colorFromHexString:@"#c2b59b"];
+    //cell.textLabel.backgroundColor = [UIColor colorFromHexString:@"#c2b59b"];
+    //cell.backgroundColor = [UIColor colorFromHexString:@"#c2b59b"];  
     return cell;	
 	
 }
